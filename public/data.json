@@ -1,0 +1,150 @@
+[
+    
+    {
+      "id": "1",
+      "image": "https://i.ibb.co/bBhYS04/Health.png",
+      "category": "Health",
+      "title": "Clean water for children",
+      "description" : "Health encompasses physical fitness, mental well-being, and emotional balance. It involves maintaining a nutritious diet, regular exercise, and managing stress effectively. Positive social connections, clean surroundings, and intellectual engagement also play vital roles. Overall, good health forms the cornerstone for a fulfilling and vibrant life.",
+     
+      "price": 345,
+      "card_background" : "rgba(0, 82, 255, 0.15)",
+      "category_bg_color" : "rgba(0, 82, 255, 0.20)",
+      "title_category_color" : "#0052FF"
+    },
+    {
+      "id": "2",
+      "image": "https://i.ibb.co/k4vcHZM/Education.png",
+      "category": "Education",
+      "title": "Good education",
+      "description" : "Education is a lifelong pursuit of knowledge and skills. It encompasses both formal learning in schools and the informal lessons we gather from life experiences. Formal education, provided in institutions, follows a structured curriculum led by trained educators. Informal education includes self-directed learning and interactions with the world around us. Both play crucial roles in personal development. Lifelong learning emphasizes continuous self-improvement, while digital education leverages technology for accessible learning.",
+     
+      "price": 299,
+      "card_background" : "rgba(255, 68, 74, 0.15)",
+      "category_bg_color" : "rgba(255, 68, 74, 0.20)",
+      "title_category_color" : "#FF444A"
+    },
+    {
+      "id": "3",
+      "image": "https://i.ibb.co/0ZfmLBG/Clothing.png",
+      "category": "Clothing",
+      "title": "Used Clothing Drive",
+      "description" : "Donating clothes is a heartfelt gesture that involves giving gently used or new garments to those in need. It's a way to extend a helping hand and provide comfort to individuals facing various challenges. Whether it's warm coats for winter or professional attire for job interviews, every contribution makes a difference. Donors play a vital role in this cycle of giving, contributing to a more caring and inclusive community.",
+     
+      "price": 400,
+      "card_background" : "rgba(121, 194, 63, 0.15)",
+      "category_bg_color" : "rgba(121, 194, 63, 0.20)",
+      "title_category_color" : "#79C23F"
+    },
+
+    {
+      "id": "4",
+      "image": "https://i.ibb.co/Jpc8cXv/Food.png",
+      "category": "Food",
+      "title": "Better Food for Everyone",
+      "description" : "Donating food is a simple yet impactful way to make a positive difference in the lives of others. It involves giving non-perishable or perishable food items to those facing food insecurity. Whether it's canned goods, grains, or fresh produce, every contribution helps. Donors play a crucial role in ensuring that no one goes hungry in their community. When giving, it's important to provide items that are unexpired and in good condition. Connecting with local food banks or shelters is a great way to ensure your donations reach those who need them most. Through small acts of kindness like these, we can work together to create a more nourished and caring world.",
+     
+      "price": 500,
+      "card_background" : "rgba(248, 113, 71, 0.15)",
+      "category_bg_color" : "rgba(248, 113, 71, 0.20)",
+      "title_category_color" : "#F87147"
+    },
+    {
+      "id": "5",
+      "image": "https://i.ibb.co/Jpc8cXv/Food.png",
+      "category": "Food",
+      "title": "Better Food for Everyone",
+      "description" : "Donating food is a simple yet impactful way to make a positive difference in the lives of others. It involves giving non-perishable or perishable food items to those facing food insecurity. Whether it's canned goods, grains, or fresh produce, every contribution helps. Donors play a crucial role in ensuring that no one goes hungry in their community. When giving, it's important to provide items that are unexpired and in good condition. Connecting with local food banks or shelters is a great way to ensure your donations reach those who need them most. Through small acts of kindness like these, we can work together to create a more nourished and caring world.",
+     
+      "price": 500,
+      "card_background" : "rgba(248, 113, 71, 0.15)",
+      "category_bg_color" : "rgba(248, 113, 71, 0.20)",
+      "title_category_color" : "#F87147"
+    },
+    {
+        "id": "6",
+        "image": "https://i.ibb.co/0ZfmLBG/Clothing.png",
+        "category": "Clothing",
+        "title": "Used Clothing Drive",
+        "description" : "Donating clothes is a heartfelt gesture that involves giving gently used or new garments to those in need. It's a way to extend a helping hand and provide comfort to individuals facing various challenges. Whether it's warm coats for winter or professional attire for job interviews, every contribution makes a difference. Donors play a vital role in this cycle of giving, contributing to a more caring and inclusive community.",
+       
+        "price": 400,
+        "card_background" : "rgba(121, 194, 63, 0.15)",
+        "category_bg_color" : "rgba(121, 194, 63, 0.20)",
+        "title_category_color" : "#79C23F"
+      },
+
+      {
+        "id": "7",
+        "image": "https://i.ibb.co/k4vcHZM/Education.png",
+        "category": "Education",
+        "title": "Good education",
+        "description" : "Education is a lifelong pursuit of knowledge and skills. It encompasses both formal learning in schools and the informal lessons we gather from life experiences. Formal education, provided in institutions, follows a structured curriculum led by trained educators. Informal education includes self-directed learning and interactions with the world around us. Both play crucial roles in personal development. Lifelong learning emphasizes continuous self-improvement, while digital education leverages technology for accessible learning.",
+       
+        "price": 299,
+        "card_background" : "rgba(255, 68, 74, 0.15)",
+        "category_bg_color" : "rgba(255, 68, 74, 0.20)",
+        "title_category_color" : "#FF444A"
+      },
+      {
+        "id": "8",
+        "image": "https://i.ibb.co/bBhYS04/Health.png",
+        "category": "Health",
+        "title": "Clean water for children",
+        "description" : "Health encompasses physical fitness, mental well-being, and emotional balance. It involves maintaining a nutritious diet, regular exercise, and managing stress effectively. Positive social connections, clean surroundings, and intellectual engagement also play vital roles. Overall, good health forms the cornerstone for a fulfilling and vibrant life.",
+       
+        "price": 345,
+        "card_background" : "rgba(0, 82, 255, 0.15)",
+        "category_bg_color" : "rgba(0, 82, 255, 0.20)",
+        "title_category_color" : "#0052FF"
+      },
+
+      {
+        "id": "9",
+        "image": "https://i.ibb.co/bBhYS04/Health.png",
+        "category": "Health",
+        "title": "Clean water for children",
+        "description" : "Health encompasses physical fitness, mental well-being, and emotional balance. It involves maintaining a nutritious diet, regular exercise, and managing stress effectively. Positive social connections, clean surroundings, and intellectual engagement also play vital roles. Overall, good health forms the cornerstone for a fulfilling and vibrant life.",
+       
+        "price": 345,
+        "card_background" : "rgba(0, 82, 255, 0.15)",
+        "category_bg_color" : "rgba(0, 82, 255, 0.20)",
+        "title_category_color" : "#0052FF"
+      },
+      {
+        "id": "10",
+        "image": "https://i.ibb.co/k4vcHZM/Education.png",
+        "category": "Education",
+        "title": "Good education",
+        "description" : "Education is a lifelong pursuit of knowledge and skills. It encompasses both formal learning in schools and the informal lessons we gather from life experiences. Formal education, provided in institutions, follows a structured curriculum led by trained educators. Informal education includes self-directed learning and interactions with the world around us. Both play crucial roles in personal development. Lifelong learning emphasizes continuous self-improvement, while digital education leverages technology for accessible learning.",
+       
+        "price": 299,
+        "card_background" : "rgba(255, 68, 74, 0.15)",
+        "category_bg_color" : "rgba(255, 68, 74, 0.20)",
+        "title_category_color" : "#FF444A"
+      },
+      {
+        "id": "11",
+        "image": "https://i.ibb.co/0ZfmLBG/Clothing.png",
+        "category": "Clothing",
+        "title": "Used Clothing Drive",
+        "description" : "Donating clothes is a heartfelt gesture that involves giving gently used or new garments to those in need. It's a way to extend a helping hand and provide comfort to individuals facing various challenges. Whether it's warm coats for winter or professional attire for job interviews, every contribution makes a difference. Donors play a vital role in this cycle of giving, contributing to a more caring and inclusive community.",
+       
+        "price": 400,
+        "card_background" : "rgba(121, 194, 63, 0.15)",
+        "category_bg_color" : "rgba(121, 194, 63, 0.20)",
+        "title_category_color" : "#79C23F"
+      },
+      {
+        "id": "12",
+        "image": "https://i.ibb.co/Jpc8cXv/Food.png",
+        "category": "Food",
+        "title": "Better Food for Everyone",
+        "description" : "Donating food is a simple yet impactful way to make a positive difference in the lives of others. It involves giving non-perishable or perishable food items to those facing food insecurity. Whether it's canned goods, grains, or fresh produce, every contribution helps. Donors play a crucial role in ensuring that no one goes hungry in their community. When giving, it's important to provide items that are unexpired and in good condition. Connecting with local food banks or shelters is a great way to ensure your donations reach those who need them most. Through small acts of kindness like these, we can work together to create a more nourished and caring world.",
+       
+        "price": 500,
+        "card_background" : "rgba(248, 113, 71, 0.15)",
+        "category_bg_color" : "rgba(248, 113, 71, 0.20)",
+        "title_category_color" : "#F87147"
+      }
+]
