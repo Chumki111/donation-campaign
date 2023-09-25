@@ -6,7 +6,7 @@ import Logo from "./Logo";
 const Navbar = () => {
     return (
         <div >
-           <nav className=" flex justify-between px-12 items-center py-8 ">
+           <nav className=" flex justify-between px-12 items-center py-2">
                 <Logo></Logo>
                 <ul className="flex gap-5">
                     <li>
