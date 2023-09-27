@@ -1,7 +1,10 @@
 .overlay{
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.55);
    bottom:0px;
+   left: opx;
+   right: 0px;
+
     width: 100%;
     height: 17%;
 }

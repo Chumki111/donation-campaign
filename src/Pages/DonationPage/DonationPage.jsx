@@ -14,10 +14,11 @@ const DonationPage = () => {
         const findDonation = donations?.find(donation => donation.id === id);
         setDonation(findDonation)
     },[id,donations])
-    console.log(donation)
+  
     return (
         <div>
             <SingleCard donation={donation}></SingleCard>
+            
         </div>
     );
 };

@@ -1,6 +1,7 @@
 import DonationCard from "../DonationCard/DonationCard";
 
 
+
 const AllDonationCard = ({donations}) => {
   
     
@@ -11,6 +12,11 @@ const AllDonationCard = ({donations}) => {
                 {
                   donations?.map(donationCard => <DonationCard key={donationCard.id} donationCard={donationCard}></DonationCard>)
                 }
+             </div>
+             <div>
+             
+               
+              
              </div>
             
         </div>
