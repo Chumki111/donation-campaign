@@ -3,29 +3,30 @@ import { useState } from "react";
 
 const Banner = ({donations}) => {
 
+  // const [searchTerm, setSearchTerm] = useState('');
+  // const [filteredItems, setFilteredItems] = useState([]);
+  //   const handleInputChange = (event) => {
+  //    setSearchTerm(event.target.value);
+  //  };
+  //  const handleSearch = () => {
+  //    const filtered = donations?.filter(item => item.category.toLowerCase().includes(searchTerm.toLowerCase()));
+  //    setFilteredItems(filtered);
+  //  }
    const campaigns = donations
 
   const [fullCampaigns,setFullCampaigns] = useState(campaigns)
   const [filteredItems, setFilteredItems] = useState(campaigns);
  
-  // const [searchTerm, setSearchTerm] = useState('');
-//  const [filteredItems, setFilteredItems] = useState([]);
-  //  const handleInputChange = (event) => {
-  //   setSearchTerm(event.target.value);
-  // };
-  // const handleSearch = () => {
-  //   const filtered = donations?.filter(item => item.category.toLowerCase().includes(searchTerm.toLowerCase()));
-  //   setFilteredItems(filtered);
-
+  
     
-  // };
+  
   const handleSearch = e => {
     const search = document.getElementById('input').value;
 
     e.preventDefault();
 
     if(search.length){
-      const FilterCampaigns = fullCampaigns.filter(campaign => campaign.category.toLowerCase() === search.toLowerCase());
+      const FilterCampaigns = filteredItems.filter(campaign => campaign.category.toLowerCase() === search.toLowerCase());
       if(FilterCampaigns){
         setFilteredItems(FilterCampaigns)
       } else{
@@ -50,7 +51,7 @@ const Banner = ({donations}) => {
           <h1 className="mb-4 text-4xl font-bold">I Grow By Helping People In Need</h1>
 
           <div>
-            <input type="text" id="input"  placeholder="Search here...." className="input input-bordered w-full max-w-xs" />
+            <input type="text" id="input" placeholder="Search here...." className="input input-bordered w-full max-w-xs" />
             <button onClick={handleSearch} className="btn outline-none bg-[#FF444A] text-center py-3 px-5 rounded-md">Search</button>
           </div>
         </div>

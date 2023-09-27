@@ -3,32 +3,26 @@ import { PieChart, Pie, Cell, } from 'recharts';
 import { useLoaderData } from "react-router-dom";
 const Statistics = () => {
 
-    const donationItems = JSON.parse(localStorage.getItem('donations')) 
-    const allDonationData = useLoaderData();
-    let reMainingTotal = 0;
-    let yourDonate;
-
-    if(donationItems){
-      yourDonate = donationItems.length;
-      reMainingTotal = allDonationData.length - yourDonate;
-    } else{
-      reMainingTotal = allDonationData.length;
-    }
-      
-
-      
-
-      const data = [
-        { name: 'Total Donation', value: reMainingTotal },
-        { name: 'Your Donate', value: yourDonate },
-        
-      ];
+const donationItems = JSON.parse(localStorage.getItem('donations')) 
+const allDonationData = useLoaderData();
+let reMainingTotal = 0;
+let yourDonate;
+if(donationItems){
+yourDonate = donationItems.length;
+reMainingTotal = allDonationData.length - yourDonate;
+} else{
+reMainingTotal = allDonationData.length;
+}
+const data = [
+{ name: 'Total Donation', value: reMainingTotal },
+{ name: 'Your Donate', value: yourDonate },
+];
 const COLORS = ['#0088FE', '#00C49F',];
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent, index }) => {
-  const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-  const x = cx + radius * Math.cos(-midAngle * RADIAN);
-  const y = cy + radius * Math.sin(-midAngle * RADIAN);
+const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+const x = cx + radius * Math.cos(-midAngle * RADIAN);
+const y = cy + radius * Math.sin(-midAngle * RADIAN);
 
   return (
     <text x={x} y={y} fill="white" textAnchor={x > cx ? 'start' : 'end'} dominantBaseline="central">
@@ -39,10 +33,7 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 
     return (
         <div className='lg:mx-auto py-10 mx-auto md:w-[650px] md:h[650px]'>    
-
-
-
-        <PieChart width={400} height={400}>
+       <PieChart width={400} height={400}>
           <Pie
             data={data}
             cx="50%"
@@ -72,6 +63,9 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
                     <p className='h-3 w-24 rounded-md bg-[#0088FE]'></p>
                 </div>
             </div>
+
+
+
            </div>
     );
 };

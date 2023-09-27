@@ -33,10 +33,10 @@ const SingleCard = ({donation}) => {
         <div>
             <div className="flex justify-center">
                 
-                <div className="w-[1000px] rounded-md">
+                <div className=" w-[500px] lg:w-[1000px] rounded-md">
                        <div className='relative'>
 
-                       <img src={image} className="w-full rounded-lg block" id="image"></img>
+                       <img src={image} className="w-[400px] lg:w-full rounded-lg block" id="image"></img>
                        <div className='overlay'>
                         <button onClick={handleDonateBtn}  className='text-white px-6 py-3 mt-7 ml-6 rounded-md text-lg' style={{background : title_category_color}}>Donate ${price}</button>
                        </div>
